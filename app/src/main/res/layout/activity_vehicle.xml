@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vehicle"
+    android:background="@drawable/bk">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter Vehicle Reg.No#"
+    android:layout_marginTop="20dp"
+    android:textSize="35dp"
+    android:paddingLeft="20dp"
+    android:textStyle="bold"
+    android:textColor="#000"
+    android:fontFamily="cursive"
+    android:textAlignment="center"
+    android:background="#c2e7f1"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="10dp"
+            android:hint="Reg.No#"
+
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/no"
+            android:textColorHint="#000"
+            android:inputType="text"
+            android:shadowColor="#782b2b"
+            android:background="#ffffff"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_centerHorizontal="true"
+        android:text=" Submit "
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/check"
+        android:textAlignment="center"
+        android:background="#969090" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To Add Reg.No#"
+        android:layout_marginTop="350dp"
+        android:textSize="35dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:background="#c2e7f1"/>
+
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="440dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="10dp"
+            android:hint="Reg.No#"
+
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/no1"
+            android:textColorHint="#000"
+            android:inputType="text"
+            android:shadowColor="#782b2b"
+            android:background="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_centerHorizontal="true"
+        android:text=" Add "
+        android:textSize="30dp"
+        android:id="@+id/add"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#969090" />
+
+
+</RelativeLayout>

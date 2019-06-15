@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "542344137880",
+    "firebase_url": "https://kustparking.firebaseio.com",
+    "project_id": "kustparking",
+    "storage_bucket": "kustparking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542344137880:android:589f6bcf04be47b6",
+        "android_client_info": {
+          "package_name": "com.example.ikram.kustparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542344137880-ednq4u5ok5c7sufvui1q3n0dj1sucbvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ikram.kustparking",
+            "certificate_hash": "66ee7f1cad19a87f998faad9d5216f0b3d6d1942"
+          }
+        },
+        {
+          "client_id": "542344137880-b49fe4snkd273an2qe3ecmh32uk3236g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gJMq5xAPgeUoHvnA7VsTQNowdN96ZGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542344137880-b49fe4snkd273an2qe3ecmh32uk3236g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
